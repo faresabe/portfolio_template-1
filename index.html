@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FARES ABENET PORTFOLIO</title>
+  <link rel="stylesheet" href="test.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="desktop">
+    <div class="logo">Fares Abenet</div>
+    <div class="nav-links">
+      <ul>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="header">
+    <h1>I'm Fares<br>Glad to see you!</h1>
+    <p>I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+    <p class="connect-text">LET'S CONNECT</p>
+    <div class="social-media">
+      <ul>
+        <li><a href="#"><img src="twitter.svg" alt="Twitter"></a></li>
+        <li><a href="#"><img src="Linkedin icon.svg" alt="LinkedIn"></a></li>
+        <li><a href="#"><img src="medium.svg" alt="Medium"></a></li>
+        <li><a href="#"><img src="github.svg" alt="GitHub"></a></li>
+        <li><a href="#"><img src="angellist.svg" alt="AngelList"></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="project-card">
+      <img src="Snapshoot Portfolio.png" alt="Project Tonic Screenshot" class="project-image">
+      <div class="project-info">
+        <h2>Tonic</h2>
+        <p class="project-meta">CANOPY • Back End Dev • 2015</p>
+        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <button class="btn">See project</button>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="snap1.png" alt="Facebook 360 Screenshot" class="project-image">
+      <div class="project-info">
+        <h2>Facebook 360</h2>
+        <p class="project-meta">FACEBOOK • Full Stack Dev • 2015</p>
+        <p class="project-description">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>Ruby on Rails</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <button class="btn">See project</button>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="uber.png" alt="Uber Navigation Screenshot" class="project-image">
+      <div class="project-info">
+        <h2>Uber Navigation</h2>
+        <p class="project-meta">Uber • Lead Developer • 2018</p>
+        <p class="project-description">A smart assistant to make driving more safe, efficient, and fun.</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>Ruby</span><span>CSS</span><span>Bootstrap</span>
+        </div>
+        <button class="btn">See project</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="about-container">
+      <div class="left-panel">
+        <h2>About Myself</h2>
+        <p>Hello, I'm a software developer! I can help you build a product, feature, or website. Look through some of my work and experience. If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+        <div class="social-icons">
+          <a href="#"><img src="twitter.svg" alt="Twitter"></a>
+          <a href="#"><img src="Linkedin icon.svg" alt="LinkedIn"></a>
+          <a href="#"><img src="github.svg" alt="GitHub"></a>
+          <a href="#"><img src="medium.svg" alt="Medium"></a>
+        </div>
+        <button class="resume-btn">Get my resume</button>
+      </div>
+
+      <div class="right-panel">
+        <div class="dropdown">
+          <input type="checkbox" id="langToggle" class="dropdown-toggle">
+          <label for="langToggle" class="dropdown-header">
+            <span>Languages</span>
+            <span class="arrow">▼</span>
+          </label>
+          <div class="dropdown-content" id="langList">
+            <div class="icon-row">
+              <div class="lang">
+                <img src="Frame 9.png" alt="JavaScript">
+                <span>JavaScript</span>
+              </div>
+              <div class="lang">
+                <img src="Frame 10.png" alt="HTML">
+                <span>HTML</span>
+              </div>
+              <div class="lang">
+                <img src="Frame 9.png" alt="CSS">
+                <span>CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="dropdown">
+          <input type="checkbox" id="frameworkToggle" class="dropdown-toggle">
+          <label for="frameworkToggle" class="dropdown-header">
+            <span>Frameworks</span>
+            <span class="arrow">▼</span>
+          </label>
+          <div class="dropdown-content" id="frameworkList">
+            <ul>
+              <li>React</li>
+              <li>Ruby on Rails</li>
+              <li>Vue.js</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="dropdown">
+          <input type="checkbox" id="skillsToggle" class="dropdown-toggle">
+          <label for="skillsToggle" class="dropdown-header">
+            <span>Skills</span>
+            <span class="arrow">▼</span>
+          </label>
+          <div class="dropdown-content" id="skillsList">
+            <ul>
+              <li>Responsive Design</li>
+              <li>REST APIs</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="contact-wrapper">
+      <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Message" rows="5" required></textarea>
+          <button type="submit">Get in touch</button>
+        </form>
+      </div>
+
+      
+      </div>
+    </div>
+  </section>
+</body>
+</html>

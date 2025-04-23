@@ -1,0 +1,29 @@
+# Portfolio Template 1
+
+A responsive and modern personal portfolio template built using only HTML and CSS. This template is perfect for showcasing your projects, skills, and personal information.
+
+##  Features
+
+- Clean, minimalist design
+- Mobile-first approach
+- Sections for About, Projects, Contact, 
+- Custom styles using pure CSS (no frameworks)
+
+##  Files
+
+- `portfolio.html` – The main HTML file for the portfolio layout
+- `style.css` – The stylesheet for styling the portfolio
+
+##  Preview
+
+Open `portfolio.html` in your browser to see the portfolio in action.
+
+##  Usage
+
+1. Clone or download the repo
+2. Open `portfolio.html` in a web browser
+3. Customize the content and style as needed
+
+```bash
+git clone https://github.com/faresabe/portfolio_template-1.git
+cd portfolio_template-1

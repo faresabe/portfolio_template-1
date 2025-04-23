@@ -125,6 +125,10 @@ a:hover::after {
   transition: transform 0.3s;
 }
 
+
+.project-card:nth-child(2) {
+  flex-direction: row-reverse;}
+
 .project-card:hover {
   transform: translateY(-5px);
 }

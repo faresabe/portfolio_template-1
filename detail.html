@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project detail</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+        .modal-overlay {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+           background-image: url(assets/Template\ 1-Main.jpg);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            max-width: 800px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+        }
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 1.5rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .modal-position {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        .modal-tags span {
+            display: inline-block;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+            padding: 0.3rem 0.6rem;
+            background: #ebf0ee;
+            border-radius: 4px;
+        }
+        .modal-buttons a {
+            margin-right: 1rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid #6070ff;
+            color: #396df2;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        @media (max-width: 768px) {
+            .modal-position {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="modal-overlay" id="tonic-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>Tonic</h2>
+            <p class="modal-subtitle">CANOPY &bull; <span class="subtitle">Back End Dev</span> &bull; <span class="subtitle">2015</span></p>
+            <img src="assets/Snapshoot Portfolio.png" alt="Project Image" style="width:100%; max-height:300px; object-fit:contain;">
+            <div class="modal-position">
+                <div>
+                    <p class="modal-description">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+                    </p>
+                </div>
+                <div>
+                    <div class="modal-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span><br><br>
+                        <span>Ruby</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <br><hr><br>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="facebook-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>Facebook 360</h2>
+            <p class="modal-subtitle">Facebook &bull; <span class="subtitle">Full Stack Dev</span> &bull; <span class="subtitle">2015</span></p>
+            <img src="assets/snap1.png" alt="Project Image" style="width:100%; max-height:300px; object-fit:contain;">
+            <div class="modal-position">
+                <div>
+                    <p class="modal-description">
+                        Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR. <br><br>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+                    </p>
+                </div>
+                <div>
+                    <div class="modal-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span><br><br>
+                        <span>Ruby On Rails</span>
+                    </div>
+                    <br><hr><br>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="ubernav-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>Uber Navigation</h2>
+            <p class="modal-subtitle">Uber &bull; <span class="subtitle">Lead Developer</span> &bull; <span class="subtitle">2018</span></p>
+            <img src="assets/uber.png" alt="Project Image" style="width:100%; max-height:300px; object-fit:contain;">
+            <div class="modal-position">
+                <div>
+                    <p class="modal-description">
+                        A smart assistant to make driving more safe, efficient, and fun by Uber Technologies. <br><br>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+                    </p>
+                </div>
+                <div>
+                    <div class="modal-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span><br><br>
+                        <span>Ruby On Rails</span>
+                    </div>
+                    <br><hr><br>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

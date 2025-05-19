@@ -23,6 +23,15 @@ nav {
   background-color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
+nav.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 
 .logo {
   font-weight: 700;
@@ -83,6 +92,19 @@ a:hover::after {
   color: #344563;
   text-align: justify;
 }
+#topBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  background: #5d5fef;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 
 
 
@@ -306,8 +328,8 @@ a:hover::after {
 }
 
 .lang img {
-  width: 24px;
-  height: 24px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 4px;
 }
 

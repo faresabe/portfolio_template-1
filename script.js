@@ -1,4 +1,4 @@
-// Typewriter effect
+
 const text = "I'm Fares\nGlad to see you!";
 let index = 0;
 const heading = document.querySelector('.header h1');
@@ -15,7 +15,6 @@ if (heading) {
   typeEffect();
 }
 
-// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
@@ -26,7 +25,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Sticky navigation
+
 window.addEventListener('scroll', () => {
   const nav = document.querySelector('nav');
   if (nav) {
@@ -34,7 +33,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// Back to top button
+
 const topBtn = document.getElementById("topBtn");
 if (topBtn) {
   window.onscroll = () => {
@@ -43,7 +42,7 @@ if (topBtn) {
   topBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// Project buttons redirection
+
 const projectButtons = document.querySelectorAll('.btn[data-project]');
 if (projectButtons.length > 0) {
   projectButtons.forEach(button => {
@@ -54,9 +53,9 @@ if (projectButtons.length > 0) {
   });
 }
 
-// Modal functionality (for detail.html)
+
 if (window.location.pathname.includes('detail.html')) {
-  // Show modal based on URL hash
+
   const hash = window.location.hash.substring(1);
   if (hash) {
     const modal = document.getElementById(hash);
@@ -66,7 +65,7 @@ if (window.location.pathname.includes('detail.html')) {
     }
   }
 
-  // Close modal functionality
+
   document.addEventListener('click', function(e) {
     if (e.target.classList.contains('modal-close')) {
       const modals = document.querySelectorAll('.modal-overlay');
@@ -79,7 +78,7 @@ if (window.location.pathname.includes('detail.html')) {
   });
 }
 
-// Form validation
+
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
   contactForm.addEventListener('submit', function(e) {

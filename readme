@@ -1,0 +1,40 @@
+# Fares Abenet - Portfolio Website
+
+
+
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [License](#license)
+
+## Description
+This is a responsive portfolio website showcasing Fares Abenet's work as a software developer. The website includes:
+- Professional introduction
+- Project showcase with detailed modals
+- About section with skills
+- Contact form
+- Smooth animations and transitions
+
+## Features
+-  **Typewriter effect** for the header text
+-  **Fully responsive** design
+-  **Smooth scrolling** navigation
+-  **Project showcase** with detailed modal views
+-  **Contact form** with validation
+-  **Back-to-top** button
+-  **Sticky navigation** bar
+
+## Technologies
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- [Google Fonts](https://fonts.google.com/) (Poppins)
+
+## Setup
+1. Clone the repository:
+   ```bash
+   git clonehttps://github.com/faresabe/portfolio_template-1

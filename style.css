@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url('Template 1-Main.jpg');
+  background-image: url('assets/Template 1-Main.jpg');
   color: #091e42;
   overflow-x: hidden;
 }
@@ -234,6 +234,7 @@ a:hover::after {
   max-width: 1200px;
 }
 
+
 .left-panel, .right-panel {
   width: 48%;
 }
@@ -344,7 +345,7 @@ a:hover::after {
 
 .contact-section {
   padding: 80px 24px;
-  background-image: url("contact bg.png");
+  background-image: url("assets/contact bg.png");
   display: flex;
   justify-content: center;
 }
